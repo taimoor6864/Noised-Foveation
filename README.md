@@ -12,3 +12,5 @@ The parameters for the synthesis can be adjusted in the 'noise_enhancement.m' fi
 We provide two test images for users to play around with. 
 
 **NOTE**: Make sure that your MATLAB is set-up for using MEX files and you have the standard 'mex.hpp', 'mexAdapter.hpp' files ready for use. 
+
+**ACKNOWLEDGEMENTS**: This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation program (grant agreement N◦ 804226 PERDY).
