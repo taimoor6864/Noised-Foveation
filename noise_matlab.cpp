@@ -17,7 +17,7 @@
  * George Drettakis and Philip Dutre
   
  * You are free to use amd modify this code in anyway you wish subject to credits:
- * Copyright (c) 2020 by Taimoor Tariq, Cara Tarhan Tursun and Piotr Didyk
+ * Copyright (c) 2022 by Taimoor Tariq, Cara Tarhan Tursun and Piotr Didyk
   
  */
 
