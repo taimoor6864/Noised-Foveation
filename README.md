@@ -1,5 +1,5 @@
 This is the MATLAB implementation for the technique described in the paper; <br />
-**Taimoor Tariq, Cara Tursun and Piotr Didyk; [Noise-based Enhancement for Foveated Rendering](https://www.pdf.inf.usi.ch/projects/NoiseBasedEnhancement/NoiseBasedEnhancement.pdf), ACM Transactions on Graphics (SIGGRAPH 2022)**. 
+**Taimoor Tariq, Cara Tursun and Piotr Didyk; [Noise-based Enhancement for Foveated Rendering](https://www.pdf.inf.usi.ch/projects/NoiseBasedEnhancement/), ACM Transactions on Graphics (SIGGRAPH 2022)**. 
 
 Our algorithm is essentialy a human peripheral perception inspired technique to improve the quality of foveated rendering, 
 allowing for more agressive shading-rate reductions without quality degradation. 
