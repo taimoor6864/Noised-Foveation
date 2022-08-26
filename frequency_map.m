@@ -30,7 +30,7 @@ M_i = transpose(1:sz(1))*ones(1,sz(2));
 M_j = transpose(transpose(1:sz(2))*ones(1,sz(1)));
 mu_mat = (log(highF_thibos_cpp) + (log(lowF_thibos_cpp)))./2;
 sig_mat = abs(f_sig.*(mu_mat - log(lowF_thibos_cpp))./2);
-norm_mat = normrnd(0,1,[sz 10]);  % Make sure to use the same pre-calculated norm_mat across all video frames for temporal consistency
+norm_mat = normrnd(0,1,[sz 10]);  % Make sure to use the same pre-calculated norm_mat across all video frames for temporal consistency (e.g. line 21)
 
 g_arr = mu_mat + sig_mat.*norm_mat;
 g_arr(g_arr >= log(highF_thibos_cpp)) = NaN;
