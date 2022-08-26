@@ -102,7 +102,7 @@ I_patney_noised = ycbcr2rgb(cat(3,(ycbcr_max.*new_patney_y_channel + ycbcr_min),
 
 noise_pattern = patch;
 
-I_patney = uint8(255.*gamma_correction(I_patney,screen_gamma,0));         %contrast enhanced image
+I_patney = uint8(real(255.*gamma_correction(I_patney,screen_gamma,0)));         %contrast enhanced image
 I_blurred = uint8(255.*gamma_correction(I_blurred,screen_gamma,0));       %foveated image
 I_noised = uint8(255.*gamma_correction(I_noised,screen_gamma,0));         %noised foveated image
 I_patney_noised = uint8(255.*gamma_correction(I_patney_noised,screen_gamma,0));   %noised contrast enhanced image (final output)
