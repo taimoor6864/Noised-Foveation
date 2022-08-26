@@ -1,7 +1,7 @@
 This is the MATLAB (recommend v.2020a or newer) implementation for our technique described in the paper; <br />
 **Taimoor Tariq, Cara Tursun and Piotr Didyk; [Noise-based Enhancement for Foveated Rendering](https://www.pdf.inf.usi.ch/projects/NoiseBasedEnhancement/), ACM Transactions on Graphics (SIGGRAPH 2022)**. 
 
-Our algorithm is essentialy a human peripheral perception inspired technique to improve the quality of foveated rendering, 
+Our algorithm is essentialy exploits the limitations of human peripheral perception to improve the quality of foveated rendering, 
 allowing for more agressive shading-rate reductions without quality degradation. 
 
 You are free to use and modify this code as you wish subject to credits. <br />
