@@ -28,7 +28,7 @@
 #include <climits>
 #include <cmath>
 #include <ctime>
-#include "C:\Users\Taimoor Tariq\source\repos\ptr_hdr.h"
+#include "ptr_hdr.h"
 
 #ifndef M_PI
 #  define M_PI 3.14159265358979323846
